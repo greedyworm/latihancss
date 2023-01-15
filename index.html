@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LATIHAN CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="hero-section">
+      <div class="nav-container">
+        <div class="logo">
+          <img src="./assets/images/blossoms.jpg" alt="" />
+          <p>Blossom-living.</p>
+        </div>
+        <div class="nav-link">
+          <ul>
+            <li class="link-item"><a>HOME</a></li>
+            <li class="link-item"><a>PRODUCT</a></li>
+            <li class="link-item"><a>ABOUT</a></li>
+            <li class="link-item"><a>CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="nav-icons">
+          <span class="register"><a href="">DAFTAR</a></span>
+          <span class="btn login"><a class="login-text" href="">MASUK</a></span>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Membantu Temukan Rumah Impian.</h1>
+          <p class="hero-subtitle">Blossom living hadir dengan berbagai macam pilihan dan penjual terpercaya untuk membantu mencari dan menemukan hunian impian yang aman dan nyaman.</p>
+          <div class="hero-button">
+            <button class="btn btn-hero">Temukan Rumah</button>
+          </div>
+        </div>
+        <div class="hero-image"><img src="./assets/images/Hero Image.png" alt="" /></div>
+      </div>
+    </div>
+
+    <!-- FEATURES SECTION -->
+    <div class="features-section">
+      <div class="features-heading">
+        <h1 class="features-title">Layanan Kami</h1>
+        <p class="features-subtitle">Solusi cerdas untuk rumah impian</p>
+      </div>
+      <div class="features-cards" id="features-cards"></div>
+    </div>
+
+    <!-- SEARCH SECTION  -->
+
+    <div class="search-section">
+      <div class="search-heading">
+        <div class="search-title">Temukan Rumah Impianmu</div>
+        <div class="search-subtitle">sekarang anda dapat menghemat semua hal stres, waktu, dan biaya tersembunyi ,dengan ratusan rumah untuk anda</div>
+      </div>
+      <div class="search">
+        <div class="search-tag">
+          <div class="tag tag-sell">Jual</div>
+          <div class="tag tag-rent">Sewa</div>
+          <div class="tag tag-newProperty">Property Baru</div>
+        </div>
+        <div class="search-content">
+          <div class="house-type">
+            <img src="./assets/icons/Home Icon.png" alt="" />
+            <p>Tipe Rumah</p>
+            <img src="./assets/icons/arrow-down.png" alt="" />
+          </div>
+          <div class="price-range">
+            <img src="./assets/icons/Money-icon.png" alt="" />
+            <p>Range Harga</p>
+            <img src="./assets/icons/arrow-down.png" alt="" />
+          </div>
+          <div class="search-bar">
+            <input type="text" placeholder="cari berdasarkan lokasi, ID, Property" />
+            <button>CARI</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RECOMENDATION SECTION -->
+
+    <div class="recomendation-section">
+      <div class="recomendation-heading">
+        <div class="recomendation-title">Rekomendasi Rumah Untuk Anda</div>
+      </div>
+      <div class="recomendation-list" id="recomendation-list"></div>
+    </div>
+
+    <!-- CAROUSEL SECTION -->
+
+    <div class="carousel-section">
+      <div class="carousel-heading">
+        <div class="carousel-title">Fitur Rumah</div>
+        <div class="carousel-button">Lihat Semua <img src="./assets/icons/Right Arrow.png" alt="" /></div>
+      </div>
+
+      <div class="slider" id="slider">
+        <div class="slider-image" id="slider-image"></div>
+        <div class="slider-arrow">
+          <img class="arr arrow-left" src="./assets/icons/Left Arrow lg.png" alt="" />
+          <img class="arr arrow-right" src="./assets/icons/Right Arrow lg.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -3,7 +3,7 @@
 const featuresCard = document.getElementById("features-cards");
 
 const features = [
-  { icon: "../assets/icons/Icon-propertybaru.png", title: "Property Baru", subtitle: "Rumah impian kini jadi kenyataan. Beli rumah baru dengan fasilitas terbaik dengan lingkungan yang nyaman." },
+  { icon: "latihancss/assets/icons/Icon-propertybaru.png", title: "Property Baru", subtitle: "Rumah impian kini jadi kenyataan. Beli rumah baru dengan fasilitas terbaik dengan lingkungan yang nyaman." },
   { icon: "../assets/icons/Icon Sewa.png", title: "Sewa Rumah", subtitle: "Beli rumah yang indah untuk keluarga anda, pilihan terbaik untuk tempat tinggal keluargamu." },
   { icon: "../assets/icons/Icon Beli.png", title: "Beli Rumah", subtitle: "Beli rumah sempurna dengan harga terbaik kualitas terjamin dari sumber terpercaya." },
 ];
